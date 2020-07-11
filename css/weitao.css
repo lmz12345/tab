@@ -1,0 +1,320 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size:10px;
+}
+body{
+	background: #f2f2f2;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 371px){
+	html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+/* 头部 */
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 9rem;
+	background: linear-gradient(to right,#fd8d24,#fd7716,#ff5e08);
+}
+header .hd{
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 1rem 0;
+}
+header .hd .hd1{
+	font-size: 1.8rem;
+	color: white;
+	font-weight: bold;
+}
+header .hd span{
+	color: white;
+	font-size: 1.8rem;
+}
+header .hd-2{
+	display: flex;
+	justify-content: space-around;
+}
+header .hd2{
+	width: 95%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.hd-2 div{
+	color: white;
+}
+.hd2 p{
+	font-size: 1.3rem;
+}
+.hd2 div{
+	background: white;
+	border-radius: 1rem;
+	width: 80%;
+	text-align: center;
+	color: orangered;
+}
+/**/
+.header{
+	width: 100%;
+	height: 6rem;
+	margin-top: 9rem;
+	background: linear-gradient(to right,#fd8d24,#fd7716,#ff5e08);
+}
+/* 内容 */
+section{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: -6rem;
+}
+/* 访问账号 */
+.zhanghao{
+	background: white;
+	border-radius:1rem;
+}
+.zhanghao p{
+	font-size: 1.2rem;
+	color: gray;
+	padding: 1rem 1rem;
+}
+.zh{
+	display: flex;
+	justify-content: space-around;
+}
+.zh .zh2{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding:1rem 0;
+}
+.zh2>img{
+	width: 55%;
+	border-radius: 50%;
+	border: 3px solid burlywood;
+}
+/* 内容 */
+.container{
+	width: 100%;
+	border-radius: 1rem;
+	background: white;
+	margin-top: 1rem;
+}
+.con1{
+	width: 100%;
+	height: 5.5rem;
+	display: flex;
+	align-items: center;
+	padding: 0 1rem;
+}
+.con1>img{
+	width: 15%;
+	height: 4rem;
+	border-radius: 50%;
+}
+.con1-1{
+	width: 100%;
+	display: flex;
+}
+.con1-1 .con1-1-1{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.con1-1 .con1-1-0>span{
+	font-size: 1.3rem;
+	color: black;
+}
+.con1-1-1 .con1-1-0{
+	display: flex;
+}
+.con1-1-0>img{
+	margin-top: .5rem;
+	height: 1.5rem;
+}
+.con1-1 div>p{
+	color: gray;
+}
+.con1-1 .con1-1-2{
+	width: 30%;
+	height: 3rem;
+	font-size: 1.2rem;
+	color: orangered;
+	border-radius: 4rem;
+	text-align: center;
+	border: 1px solid orangered;
+}
+.s1{
+	color: gray;
+}
+.con2{
+	display: flex;
+	padding: .5rem 1rem;
+}
+.con2>img{
+	height: 2rem;
+}
+.con2>p{
+	font-size: 1.3rem;
+	color: gray;
+}
+.con3,.con4{
+	display: flex;
+	justify-content: space-around;
+}
+.con3 div,.con4>div{
+	width: 32%;
+	height: 10rem;
+}
+.con3 div>img,.con4 div>img{
+	width: 100%;
+	height: 95%;
+}
+.con5-1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.con5-1 div img{
+	width:4.5rem;
+	height: 5rem;
+}
+.con5-1 div p{
+	font-size: 1.7rem;
+}
+.con5-1 div span{
+	color: orangered;
+	font-size: 1.5rem;
+}
+.zuo{
+	width: 1.9rem;
+	height: 1.9rem;
+	background: #ccc;
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.4rem;
+}
+.con6{
+	display: flex;
+	padding: 1rem 1rem;
+	justify-content: space-between;
+}
+.con6-1{
+	display: flex;
+	margin-top: -.5rem;
+}
+/* 内容3 */
+.container3 .con4{
+	display: flex;
+	flex-flow: wrap;
+}
+/* 脚 */
+footer{
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	height: 4.3rem;
+	background: #f2f2f2;
+	display: flex;
+	/* display: none; */
+	justify-content: space-around;
+}
+.nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-item a{
+	text-decoration: none;
+	color: black;
+}
+/* 顶部按钮 */
+.top0{
+	position: fixed;
+	right: 0;
+	width: 100%;
+	top: 40rem;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	display: none;
+	z-index: 7;
+	background: whitesmoke;
+}
+.top0 span{
+	color: gray;
+	font-size: 2rem;
+	margin-left: 1.5rem;
+}
+.top0 .sp5{
+	font-size: 1.2rem;
+}
+/* 遮幕层 */
+.overlay{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: .2;
+	top: 9rem;
+	left: 0;
+	display: none;
+	z-index: 8;
+}
+.huadong{
+	width: 100%;
+	position: fixed;
+	background: white;
+	margin-top: -2rem;
+	border-radius: 1rem;
+	z-index: 10;
+	bottom: 0;
+	display: none;
+}
+.huad{
+	display: flex;
+	align-items: center;
+}
+.huad2{
+	width: 100%;
+	margin-left: 1rem;
+	padding: 1rem 0;
+	border-bottom: 1px solid #ccc;
+}
+.huad2>p{
+	font-size: 1.3rem;
+}
+.huad3{
+	text-align: center;
+	padding: 1rem 0;
+}
+.huad3 button{
+	width:95%;
+	margin: 0 auto;
+	height: 3rem;
+	border-radius: 5rem;
+	border: 0;
+}

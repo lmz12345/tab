@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size:10px;
+}
+body{
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 371px){
+	html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+.pic0{
+	width: 100%;
+}
+.pic0 div{
+	text-align: center;
+	padding: 4rem 0;
+}
+.pic0 img{
+	width: 23%;
+	margin: 0 auto;
+}
+form{
+	width: 100%;
+}
+input{
+	width: 95%;
+	margin-left: .8rem;
+	height: 5rem;
+	margin-top: 1rem;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+#yzm{
+	position: relative;
+	width: 360px;
+	height: 50px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+.djyz{
+	position: relative;
+	height: 30px;
+	width: 75px;
+	top: -40px;
+	left: 200px;
+	letter-spacing: 3px;
+	font-size: 25px;
+}
+#submit{
+	font-size: 1.5rem;
+	width: 95%;
+	border-radius: 5rem;
+	background: linear-gradient(to right,#fd8d24,#fd7716,#ff5e08);
+	color: white;
+}
+.bot{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.left a{
+	float: left;
+	color: black;
+	text-decoration: none;
+}
+.right0 a{
+	float: right;
+	color: black;
+	text-decoration: none;
+}
+input .red{
+	border: 1px solid red;
+}

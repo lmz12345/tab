@@ -1,0 +1,191 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size:10px;
+}
+body{
+	background: #f2f2f2;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 371px){
+	html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}
+/* 头部 */
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 9rem;
+	padding: 1rem 1rem;
+	background: linear-gradient(to right,#fd8d24,#fd7716,#ff5e08);
+}
+header .hd{
+	display: flex;
+	justify-content: space-between;
+}
+header .hd1{
+	font-size: 1.8rem;
+	color: white;
+	font-weight: bold;
+}
+header .hd2{
+	color: white;
+	font-size: 1.4rem;
+}
+header .hd3{
+	color: white;
+	padding: 1rem 0;
+}
+/**/
+.header{
+	width: 100%;
+	height: 6rem;
+	margin-top: 9rem;
+	background: linear-gradient(to right,#fd8d24,#fd7716,#ff5e08);
+}
+/* 内容 */
+section{
+	width: 100%;
+	margin-top: -6rem;
+}
+/* 1 */
+.con1{
+	width: 95%;
+	margin: 0 auto;
+	background: white;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	padding: 2rem 1rem;
+}
+.con1-1{
+	width: 100%;
+	display: flex;
+}
+.con1-1-1{
+	padding: 0 1.5rem;
+	margin-top: -.6rem;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+.con1-1-1 .s1{
+	font-size: 1.8rem;
+}
+.con1-1-1 .s2{
+	color: gray;
+	font-size: 1.3rem;
+}
+.con1-2{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.con1-2 div img{
+	width: 6rem;
+	margin-left: .5rem;
+}
+input[type="checkbox"]{
+	width: 10px;
+	height: 10px;
+	border: 1px solid red;
+	border-radius: 50%;
+}
+.con1-2-2{
+	padding: 0 1rem;
+}
+.con1-2-2>p{
+	margin-top: 2rem;
+}
+.con1-2-3{
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.con1-2-3 .money,.yuan,.money2,.money3,.money4{
+	font-size: 1.6rem;
+	color: orangered
+}
+.con1-2-1{
+	padding: .5rem 0;
+	border: 1px solid #ccc;
+}
+.con1-2-1 button{
+	border: 0;
+	background-color: white;
+	width: 2rem;
+}
+.jiage,.jiage2,.jiage3,.jiage4{
+	display: none;
+}
+/* 脚 */
+footer{
+	position: sticky;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	/* height: 4.3rem; */
+	background: #f2f2f2;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+.nav-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav-item a{
+	text-decoration: none;
+	color: black;
+}
+.xuanze{
+	width: 100%;
+	padding: 0 2.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xuanze div{
+	font-size: 1.4rem;
+}
+.xuanze div label{
+	color: orangered;
+}
+.zo{
+	display: none;
+}
+.top0{
+	position: fixed;
+	right: 0;
+	width: 100%;
+	top: 40rem;
+	width: 5rem;
+	height: 5rem;
+	border-radius: 50%;
+	display: none;
+	z-index: 7;
+	background: whitesmoke;
+}
+.top0 span{
+	color: gray;
+	font-size: 2rem;
+	margin-left: 1.5rem;
+}
+.top0 .sp5{
+	font-size: 1.2rem;
+}
